@@ -1,0 +1,7 @@
+AuthName "itecra.chimpancedigital.com.ar statistics"
+AuthType Basic
+AuthUserFile /home/chimpancedigital/domains/itecra.chimpancedigital.com.ar/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
